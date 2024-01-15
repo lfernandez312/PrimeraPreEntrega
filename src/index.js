@@ -38,8 +38,8 @@ async function loadChatsFromFile() {
 
 loadChatsFromFile();
 
-const httpServer = app.listen(3000, () => {
-  console.log('Server running at port 3000');
+const httpServer = app.listen(8080, () => {
+  console.log('Server running at port 8080');
 });
 
 const io = new Server(httpServer);
